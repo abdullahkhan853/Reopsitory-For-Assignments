@@ -1636,6 +1636,27 @@
 // 12. Write a JavaScript function that accepts a string as a parameter 
 // and find the longest word within the string.  EXAMPLE STRING : 
 // 'Web Development Tutorial'  EXPECTED OUTPUT : 'Development' 
+
+//         function long(a){
+//                 var arr = [];
+//                 for(var i = 0; i < a.length; i++){
+//                         if(a[i] == ' '){
+//                                 for(var j = 0; j < a.length; j++){
+//                                         arr[j] = x;
+//                                         x = '';
+//                                         continue;
+//                                 }
+//                       x += a[i];
+// }
+// }
+//                 for(var k = 0; k < arr.length; k++){
+//                 if(arr[k].length < arr[k+1].length)
+//                         var str = arr[k+1]
+//                 }
+//                 document.write('Longest ord in the string is ' + str)
+//         }
+// var a = prompt('Enter string')
+// long(a)
  
 // 13. Write a JavaScript function that accepts two arguments, a string 
 // and a letter and the function will count the number of 
